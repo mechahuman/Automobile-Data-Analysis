@@ -8,7 +8,8 @@ This [project](https://github.com/mechahuman/Automobile-Data-Analysis/) contains
 
 The purpose of this project is to analyze a dataset of automobiles produced between 1970 and 1982.  
 The analysis explores relationships between attributes such as fuel efficiency, horsepower, displacement, weight, and acceleration.  
-In addition to exploratory analysis, this project applies **K-Nearest Neighbors (KNN) Regression** to predict fuel efficiency (MPG) based on automobile features.
+In addition to exploratory analysis, this project applies **K-Nearest Neighbors (KNN) Regression** to predict **acceleration (0–60 mph time)** based on automobile features.
+
 
 ---
 
@@ -46,7 +47,7 @@ The dataset was used to build a **K-Nearest Neighbors (KNN) regression model** w
 
 1. **Data Preprocessing**
    - Missing values in the `horsepower` column were replaced with the mean value (rounded).  
-   - Features (`X`) were selected from columns: `mpg`, `cylinders`, `displacement`, `horsepower`, `weight`.  
+   - Features (`X`) were selected: `mpg`, `cylinders`, `displacement`, `horsepower`, `weight`.  
    - The target (`y`) was set as the `acceleration` column.  
    - Data was split into training and testing sets (80% training, 20% testing).  
 
@@ -56,13 +57,13 @@ The dataset was used to build a **K-Nearest Neighbors (KNN) regression model** w
 
 3. **Model Evaluation**
    The trained model was evaluated on the test set using multiple metrics:
-   - Accuracy (R² score)  
-   - Mean Squared Error (MSE)  
-   - Root Mean Squared Error (RMSE)  
-   - Mean Absolute Error (MAE)  
-   - Mean Absolute Percentage Error (MAPE)  
+   - Accuracy (R² score)  : 0.6263
+   - Mean Squared Error (MSE)  : 2.7579
+   - Root Mean Squared Error (RMSE)  : 1.6607
+   - Mean Absolute Error (MAE)  : 1.2853
+   - Mean Absolute Percentage Error (MAPE)  : 8.21%
 
-These metrics provide a comprehensive understanding of model performance and error distribution.
+These metrics provide a comprehensive understanding of model performance and its ability to predict **acceleration** from car features.
 
 ---
 
