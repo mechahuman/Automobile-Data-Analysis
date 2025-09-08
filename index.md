@@ -63,7 +63,7 @@ The dataset was used to build a **K-Nearest Neighbors (KNN) regression model** w
    - Mean Absolute Error (MAE)  : 1.2853
    - Mean Absolute Percentage Error (MAPE)  : 8.21%
   
-#### [Jupyter Notebook](datasetanalysis.ipynb)
+#### [Jupyter Notebook](https://github.com/mechahuman/Automobile-Data-Analysis/blob/main/datasetanalysis.ipynb)
 
 These metrics provide a comprehensive understanding of model performance and its ability to predict **acceleration** from car features.
 
