@@ -1,6 +1,6 @@
 # Automobile Data Analysis
 
-This [project](https://github.com/mechahuman/Automobile-Data-Analysis/) contains an in-depth analysis of the Automobile dataset, focusing on performance metrics, efficiency trends, historical insights, and predictive modeling using machine learning.
+This [project](https://github.com/mechahuman/Automobile-Data-Analysis/) contains an in-depth analysis of the [Automobile dataset](https://www.kaggle.com/datasets/tawfikelmetwally/automobile-dataset ), focusing on performance metrics, efficiency trends, historical insights, and predictive modeling using machine learning.
 
 ---
 
